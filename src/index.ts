@@ -1,6 +1,6 @@
 const weights = [1, 3, 7, 9, 1, 3, 7, 9, 1, 3];
 
-export default function isValidPESEL(rawPesel) {
+export default function isValidPESEL(rawPesel: string | number): boolean {
   if (!rawPesel) {
     return false;
   }

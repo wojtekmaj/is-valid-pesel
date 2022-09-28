@@ -2,6 +2,7 @@ import isValidPESEL from './index';
 
 describe('isValidPESEL', () => {
   it('returns false for no input', () => {
+    // @ts-expect-error-next-line
     const result = isValidPESEL();
 
     expect(result).toBe(false);
