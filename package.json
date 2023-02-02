@@ -1,6 +1,6 @@
 {
   "name": "is-valid-pesel",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Check if a number is a valid PESEL",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
