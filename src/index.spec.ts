@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import isValidPESEL from './index';
+import isValidPESEL from './index.js';
 
 describe('isValidPESEL', () => {
   it('returns false for no input', () => {
