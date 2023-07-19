@@ -17,9 +17,8 @@ Check if a number is a valid PESEL.
 
 ## Examples
 
-```js
-> isValidPESEL('50062373028');
-< true
+```ts
+isValidPESEL('50062373028'); // true
 ```
 
 ## License
