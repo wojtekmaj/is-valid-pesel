@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+
 import isValidPESEL from './index.js';
 
 describe('isValidPESEL', () => {
